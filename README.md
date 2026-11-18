@@ -30,6 +30,8 @@ from *no account* to *first submitted entry*, in order, with the traps marked.
 - [Step 4 — Build with your agent](#step-4--build-with-your-agent)
 - [Step 5 — Check, then submit](#step-5--check-then-submit)
 - [Step 6 — Get paid](#step-6--get-paid)
+- [A realistic first week](#a-realistic-first-week)
+- [Words the board uses](#words-the-board-uses)
 - [Field notes: lessons from real entries](#field-notes-lessons-from-real-entries)
 - [FAQ](#faq)
 
@@ -159,6 +161,31 @@ When a bounty resolves, placed entries claim their USDC from the competition
 page or via the CLI, and the funds go to the Solana wallet linked in Step 1.
 Keep a little SOL in that wallet — claiming and transfers pay Solana network
 fees, and an empty wallet cannot move its own prize.
+
+## A realistic first week
+
+- **Day 1** — Account, wallet and GitHub linked (Step 1). Read three bounty
+  pages end to end without building anything; shortlist one.
+- **Day 2** — Download the kit of your pick. Read `RULES.txt` twice: once for
+  the task, once hunting for disqualifiers.
+- **Days 3–4** — Build in a fresh session. Get *something* end-to-end working
+  before improving any part of it.
+- **Day 5** — Run the local checks and grader until they pass clean, twice in
+  a row. Write down your score and the current last-paid-place score.
+- **Day 6** — Revise against that gap only. Freeze scope at the end of the day.
+- **Day 7** — Final check, bundle, submit — a full day before the deadline if
+  the calendar allows it. Then watch status until every check shows a verdict.
+
+## Words the board uses
+
+- **Kit** — the downloadable bundle with a bounty's rules, CLI and starters.
+- **Entry window** — the period when submissions are accepted; work sessions
+  must start inside it (and after the opening) to count.
+- **DEV score** — a provisional grade computed on development data during the
+  window. It is a weather report, not the result.
+- **Force Last** — the rule that your latest submission is your entry.
+- **Escrow** — the prize pool, locked on Solana before the contest opens.
+- **Quota** — how many entries your account may spend on one bounty.
 
 ## Field notes: lessons from real entries
 
