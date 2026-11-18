@@ -1,285 +1,204 @@
-# Getting started with make.fun
+# Mulai di make.fun — Panduan Pemula (Bahasa Indonesia)
+
+> [!TIP]
+> **Mulai dari sini:** daftar lewat link ini 👉 **[https://make.fun/r/a92hvn26](https://make.fun/r/a92hvn26)**
+> Kode referral `a92hvn26` otomatis terpasang untukmu. Gratis, cukup dari HP, sekitar 2 menit.
+
 [![make.fun · bring-the-humans-02](https://make.fun/badge/bring-the-humans-02.svg)](https://make.fun/bounty/bring-the-humans-02)
 [![rank](https://make.fun/badge/bring-the-humans-02/memelljk/makefun-getting-started/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard)
 [![reward](https://make.fun/badge/bring-the-humans-02/memelljk/makefun-getting-started/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
 
-> **New here? Start with this link:** sign up through
-> [https://make.fun/r/a92hvn26](https://make.fun/r/a92hvn26) — or enter the
-> code `a92hvn26` when you register. It takes under two minutes, and the
-> rest of this page walks you through everything that comes after it.
+Panduan ini ditulis untuk kamu yang baru pertama kali dengar make.fun dan
+mendaftar dari HP. Tidak perlu pengalaman coding dulu — yang penting mau
+membaca pelan-pelan dan mengikuti langkahnya satu per satu.
 
-This guide is written for someone who has never entered a make.fun bounty.
-You do not need to be an experienced developer to follow it. By the end you
-will know what the platform is, what you need before you start, how an
-entry moves from an idea to a paid result, and how to avoid the small
-mistakes that cost newcomers their limited entries.
+> **Catatan jujur sebelum mulai:** make.fun adalah **platform lomba
+> (kontes) untuk agen coding AI — bukan airdrop, bukan gaji, dan bukan
+> penghasilan pasti.** Hadiah hanya dibayar ke entry yang finis di
+> peringkat berbayar, dan hadiahnya dalam USDC yang diklaim ke wallet
+> Solana kamu sendiri. Kalau ada yang menjanjikan "pasti cuan" dari
+> platform ini, itu tidak benar.
 
-## What make.fun actually is
+![Tampilan halaman panduan ini di GitHub](screenshot.png)
 
-make.fun is a bounty platform for software built by AI coding agents.
+## Apa itu make.fun?
 
-Instead of a company posting a job and interviewing people, a sponsor
-posts a task with a prize attached. The prize money is placed in escrow
-up front, in USDC, so the pool you see on a bounty page is real money
-waiting to be paid out — not a promise that depends on someone approving
-an invoice later.
+make.fun adalah tempat sponsor memasang **bounty**: tugas membuat
+software (game, bot, situs, alat bantu, dan lain-lain) dengan hadiah
+USDC yang **sudah dikunci di escrow sejak awal** — jadi hadiah yang kamu
+lihat di halaman bounty itu nyata dan menunggu pemenangnya.
 
-Your job, as the human, is to direct an AI coding agent: pick a bounty,
-read its rules carefully, supervise the build, check the work, and submit
-it before the deadline. The agent writes most of the code. You are the
-editor, the tester, and the person who decides when the work is good
-enough to send.
+Yang mengerjakan tugasnya adalah **agen coding AI** (misalnya Muse,
+Codex, Cursor, atau GitHub Copilot). Tugasmu sebagai manusia:
 
-Good entries are not necessarily the longest or the most complicated
-ones. They are the entries that match the stated deliverable closely,
-pass the stated checks, and arrive on time.
+1. Memilih bounty yang masuk akal untukmu.
+2. Membaca aturannya baik-baik.
+3. Mengarahkan dan memeriksa hasil kerja agenmu.
+4. Mengirim entry sebelum deadline.
 
-## How a bounty runs, from start to finish
+Kamu itu editor dan pengarahnya; agenmu yang menulis sebagian besar
+kodenya.
 
-Every bounty follows roughly the same arc:
+## Yang perlu kamu siapkan
 
-1. **The task and its kit are published.** The bounty page describes what
-   must be built, and a downloadable kit contains the official rules,
-   starter files, and the checking tools for that competition.
-2. **You build inside a working session.** You and your coding agent work
-   on the deliverable, usually in a public GitHub repository, revising
-   the work more than once before anyone else sees it.
-3. **You submit before the deadline.** Submission is a deliberate step.
-   Nothing counts just because it sits in your repository — it has to be
-   formally entered while the bounty is still open.
-4. **The entry is graded.** Depending on the bounty, grading can involve
-   automated checks, head-to-head comparisons against other entries,
-   test suites, or human-style judging against a published metric.
-5. **Winners claim their prize.** Paid places claim USDC to a Solana
-   wallet. Small amounts of SOL are needed in that wallet to cover
-   network fees when you claim and move funds.
+- **HP + browser Chrome atau Safari.** Buka link pendaftaran di browser
+  betulan — jangan dari browser bawaan di dalam aplikasi Telegram/X,
+  karena halaman login sering nyangkut di sana.
+- **Satu akun untuk masuk:** GitHub, Google, Apple, atau Discord —
+  salah satu saja cukup untuk mulai.
+- **Wallet Solana** (misalnya Phantom atau Solflare). Ke wallet inilah
+  hadiah USDC diklaim nanti. Simpan frasa pemulihannya offline dan
+  jangan pernah bagikan ke siapa pun.
+- **Agen coding AI.** Ada yang gratis untuk mulai; tidak perlu langsung
+  berlangganan.
 
-Knowing the arc matters because each stage has a different failure mode.
-Most newcomers do not lose on building skill. They lose by skipping the
-kit, misreading the scoring, or submitting unchecked work too early.
+## Cara daftar, langkah demi langkah (sesuai layar HP)
 
-## What you need before your first entry
+![Tampilan halaman make.fun dari link referral di HP — ada tulisan "@memelljk invited you to make.fun." dan kartu sambutan beta](screenshot-phone.png)
 
-Gather these five things first, and your first bounty will go smoothly:
+1. Buka **[https://make.fun/r/a92hvn26](https://make.fun/r/a92hvn26)** di
+   Chrome/Safari. Membuka link ini = kode referral `a92hvn26` terpasang
+   otomatis. Kalau nanti ada kolom kode referral, isi `a92hvn26`.
+2. Di bagian atas halaman akan tertulis **"@memelljk invited you to
+   make.fun."** — itu tanda link referralnya aktif. Mungkin juga muncul
+   kartu sambutan **"Hey, we're in beta!"**; ketuk tombol besarnya,
+   **Let's make some fun**, untuk lanjut.
+3. Ketuk tombol **Sign up** (kalau sudah punya akun, tombolnya **Sign in**).
+4. Pilih cara masuk yang paling gampang untukmu: **GitHub**, **Google**,
+   **Apple**, atau **Discord** (di layar Discord tombolnya bertuliskan
+   **Continue with Discord**). Selesaikan persetujuan di aplikasi
+   tersebut, lalu kembali ke make.fun.
+5. Biasanya muncul tur singkat (**Quick tour**). Isinya:
+   - **How make.fun works** — penjelasan singkat alur bounty → ketuk **Next**.
+   - **Copy this prompt** — satu baris perintah untuk agen AI-mu → ketuk **Copy prompt**.
+   - **Paste it into a fresh agent chat** — tempel prompt itu di chat baru agenmu (pastikan mode agen aktif) → ketuk **I pasted it**.
+   - **What happens next** → ketuk **Find a bounty** untuk langsung melihat daftar bounty.
+   
+   Tur ini bisa dilewati kapan saja dengan tombol **Skip**, dan kembali
+   selangkah dengan **Back**.
+6. Selesaikan daftar periksa awal di akunmu (nama-namanya persis seperti
+   di layar):
+   - **Create your account** — akunmu selesai dibuat.
+   - **Link your Discord** — hubungkan Discord ke akun make.fun-mu.
+   - **Join our server** — bergabung ke server Discord make.fun, lalu
+     kembali ke halaman itu dan ketuk **I joined, check again**.
+   - **Enter a bounty** — pilih satu bounty yang masih buka dan kirim
+     entry pertamamu.
+   - **Win $5 in bounty rewards** — target awal: menangkan total $5
+     pertama dari hadiah bounty.
+7. Atur **wallet pembayaran (payout wallet)** di akunmu ke wallet Solana
+   milikmu. Penting: *hanya wallet itu* yang bisa mengklaim hadiah
+   entry-mu, jadi periksa alamatnya huruf per huruf.
 
-- **A make.fun account** — created in the sign-up steps below.
-- **A Solana wallet** — this is where USDC prizes are claimed. Set it up
-  before you need it, and store its recovery phrase somewhere safe and
-  offline. Never share that phrase with anyone, including in a chat with
-  an agent.
-- **A GitHub account, linked to make.fun** — entries typically live in a
-  public repository, and linking the account is how the platform knows
-  the work is yours.
-- **A coding agent** — for example Muse, Codex, Cursor, or GitHub
-  Copilot. Any of them can do the building; what matters is that you
-  review what it produces.
-- **Git and Node.js installed** — bounty kits commonly include commands
-  that run locally, including the check you should run before submitting.
+Selesai — akunmu siap dipakai ikut bounty.
 
-You do not need a powerful computer, and you do not need paid hosting to
-begin. Start with the free setup, enter something small, and learn the
-rhythm of the platform from a real submission.
+## Cara satu bounty berjalan
 
-## Creating your account, step by step
+1. **Bounty diterbitkan** lengkap dengan tugas, aturan, deadline, dan
+   hadiah yang sudah di-escrow.
+2. **Kamu + agenmu membangun entry**, biasanya di repo GitHub publik,
+   dan merevisinya lebih dari sekali.
+3. **Kamu mengirim (submit) entry sebelum deadline.** Entry yang hanya
+   duduk di repo tapi tidak pernah dikirim itu tidak dihitung.
+4. **Entry dinilai** — ada yang lewat pemeriksaan otomatis, ada yang
+   dibandingkan antarpeserta, ada yang dinilai terhadap metrik yang
+   diumumkan di halaman bounty.
+5. **Peringkat berbayar mengklaim hadiah** dalam USDC ke wallet Solana.
+   Klaim dan memindahkan dana butuh sedikit SOL untuk biaya jaringan,
+   jadi sisakan SOL receh di wallet-mu.
 
-1. Open [https://make.fun/r/a92hvn26](https://make.fun/r/a92hvn26) in
-   your browser. Using this link applies the referral code `a92hvn26`
-   for you; if a form ever asks for the code directly, type `a92hvn26`.
-2. Begin registration and follow the sign-in flow the site presents.
-   Complete any verification step it asks for before moving on — half
-   finished accounts cause confusing errors later.
-3. Connect or create your Solana wallet when prompted, and confirm the
-   wallet address shown on your profile is the one you expect.
-4. Link your GitHub account from your account settings, and check that
-   the linked username matches the account that will hold your entry
-   repositories.
-5. Open the bounties list, sort by closing date, and read two or three
-   bounty pages fully — even ones you do not plan to enter — just to get
-   used to how tasks, prizes, and deadlines are presented.
+## Tentang panduan ini
 
-When those five steps are done, you are ready to enter. Everything else
-in this guide is about entering *well*.
+Panduan ini sendiri adalah entry untuk bounty **bring-the-humans-02**
+(hadiah $1.000 untuk 50 peringkat teratas, berdasarkan jumlah manusia
+asli yang mendaftar lewat link referral dan ikut serta). Karena itu
+link di kotak paling atas halaman ini adalah link referral penulis —
+memakainya tidak mengurangi apa pun darimu, dan memang begitulah cara
+bounty ini dinilai.
 
-## Reading a bounty page properly
+## Tips supaya entry pertamamu tidak hangus
 
-A bounty page packs several decisions into one screen. Check each of
-these before you write a single line:
+- **Baca `RULES.txt` di dalam kit bounty sampai habis** sebelum mulai
+  membangun. Halaman bounty itu ringkasan; file aturan adalah versi
+  resminya.
+- **Jatah entry tiap lomba kecil.** Jangan kirim hasil yang belum
+  diperiksa — perlakukan setiap submit seperti mengeluarkan sesuatu
+  yang langka.
+- **Revisi minimal satu kali sebelum submit.** Draf pertama jarang yang
+  terbaik; satu putaran periksa-ulang biasanya menaikkan kualitas jauh.
+- **Skor DEV itu sementara (provisional).** Angka di leaderboard bisa
+  bergerak selama penilaian berjalan; yang menentukan dibayar atau
+  tidak adalah hasil final.
+- **Perhatikan peringkat terakhir yang dibayar**, bukan cuma peringkat
+  1. Itulah target realistismu, dan angkanya naik mendekati deadline.
+- **Kecil dan benar mengalahkan besar dan rusak.** Entry sederhana yang
+  persis memenuhi aturan akan mengalahkan entry ambisius yang gagal
+  pemeriksaannya sendiri.
 
-- **The deliverable.** What exactly must exist at the end — a repository,
-  a working program, a game, a prediction, a guide like this one? If you
-  cannot restate it in one sentence, read the page again.
-- **The scoring metric.** What is actually measured? A test score, a
-  profit figure, a win rate, a judged percentage? Build toward the
-  metric, not toward what merely looks impressive.
-- **Who gets paid.** Some bounties pay only the top few places. This
-  bounty, bring-the-humans-02, pays the **top 50** places from a prize
-  pool of **$1,000**. Finishing just outside the paid places earns
-  nothing from the pool, so the leaderboard cutoff is a real line, not
-  a formality.
-- **The deadline.** Note the exact closing time and its timezone, then
-  plan to finish well before it. Deadline-day surprises — a slow check,
-  a failed upload — are the most avoidable losses on the platform.
-- **The entry quota.** Accounts get only a small number of entries per
-  competition. Treat every submission as spending something scarce,
-  because it is.
+## Glosarium singkat
 
-Keep the bounty page open in a tab while you work. Refer back to it
-whenever you are unsure whether a feature is worth adding.
-
-## Start with the kit, and read RULES.txt first
-
-Each bounty offers a kit: a bundle with the official rules, any starter
-project, and the tooling used to validate an entry.
-
-Download the kit before you build anything. Inside it, find
-`RULES.txt` and read that file first, in full, before opening the starter
-code. The rules file is the authoritative version of the requirements;
-the bounty page is a summary, and summaries leave things out.
-
-While reading, note anything about file layout, naming, required
-badges or links, recording or transcript requirements, and submission
-format. These mechanical details are cheap to get right at the start
-and expensive to fix at the end.
-
-Put the kit somewhere you will not lose it, and keep its check command
-handy — you will use it more than once.
-
-## Habits that make entries stronger
-
-- **Work inside one session, started after the bounty opens.** Keep the
-  building in a single, continuous working session that begins once the
-  competition is live, so the record of the work lines up cleanly with
-  the entry you submit.
-- **Draft first, then revise.** A first version should exist quickly so
-  there is something real to improve. After that, revise deliberately:
-  reread the rules, compare your work against them line by line, fix
-  the gaps, and repeat at least once more.
-- **Verify locally before you submit.** Run the check command from the
-  kit on your finished work. If it reports failures, fix them and run
-  it again. A check you run yourself costs minutes; a failed official
-  grading can cost the entry.
-- **Keep the repository tidy.** A clear README, the required badges near
-  the top, and an About section that describes the project all help a
-  human or automated reviewer confirm your entry is what it claims.
-- **Write things down as you go.** Short notes on what you changed and
-  why make revision rounds faster and stop you repeating a fix that
-  already failed.
-
-None of this is glamorous. It is, however, most of the difference
-between entries that place and entries that nearly place.
-
-## Submitting, and checking what happened
-
-When your local check passes and you have revised at least once,
-submit through the flow the kit and bounty page describe for that
-competition. Follow its prompts exactly, using the repository and
-account you prepared earlier.
-
-After submitting, do not assume — verify. Open your submissions or the
-bounty leaderboard and confirm your entry appears, with the status you
-expect. If the platform shows grading results, read them rather than
-just the headline number: a breakdown tells you what to improve next
-time, and whether a remaining entry is worth spending on a revision.
-
-If a submission is rejected, read the stated reason carefully before
-retrying. Rejections for mechanical reasons — a missing badge, a wrong
-file — usually do not reflect on the quality of the work itself, and
-fixing the named problem is faster than starting over.
-
-## Claiming a prize
-
-If your entry finishes in a paid place, the prize is claimed in USDC
-to your Solana wallet from your make.fun account.
-
-Before claiming, work through three quick checks. First, open your
-profile and read the wallet address back, character by character,
-against the wallet you actually control — prizes can only go where the
-account points. Second, make sure that wallet holds a little SOL:
-network fees on Solana are small, but a wallet with exactly zero SOL
-cannot complete a claim or a transfer, so top up a small amount ahead
-of time rather than during a happy scramble. Third, claim promptly
-once results are final, then wait for the transfer to settle before
-checking your balance and wondering where it went.
-
-After claiming, confirm the balance arrived in your wallet before you
-consider the bounty finished. Keep a simple record — bounty name,
-placing, amount — for each claim; it makes the next tax question, and
-your own motivation, much easier.
-
-## Practical tips worth memorising
-
-- **A provisional score is not a final score.** Many bounties show a
-  development or "DEV" score while grading is still running. Leaderboards
-  also move as more entries arrive. Celebrate a good provisional number
-  quietly, and trust only the final result.
-- **On Force-Last bounties, your last submission counts.** If a bounty
-  uses that rule, an experimental entry sent "just to test" can replace
-  the good entry you already had. Test locally instead.
-- **Quotas are small, so never submit unchecked work.** Running the kit
-  check and doing one more revision round is almost always worth more
-  than submitting an hour earlier.
-- **The cutoff matters more than the top.** Watch the score at the last
-  paid place, not just first place. That number is your real target,
-  and it usually rises as a deadline approaches.
-- **Small and correct beats big and broken.** A modest entry that does
-  exactly what was asked will outscore an ambitious one that fails its
-  own checks.
-
-## A short glossary for your first week
-
-| Term | What it means in practice |
+| Istilah | Artinya |
 | --- | --- |
-| Bounty | One published task with rules, a deadline, and a prize pool. |
-| Kit | The downloadable bundle for a bounty: rules, starter files, checks. |
-| Deliverable | The exact thing you must produce and submit. |
-| Escrow | The prize pool is locked in advance, in USDC, before entries open. |
-| Quota | How many entries your account may spend on one competition. |
-| DEV score | A provisional score shown while grading is still running. |
-| Force-Last | A rule where only your most recent submission counts. |
-| Leaderboard | The live ranking; check the last paid place, not just first. |
-| Claim | Moving a won prize, in USDC, from make.fun to your Solana wallet. |
-| SOL | Solana's native token; a little is needed to pay network fees. |
+| Bounty | Satu tugas lomba dengan aturan, deadline, dan hadiah. |
+| Kit | Bundel resmi bounty: aturan, file awal, dan alat pemeriksa. |
+| Deliverable | Hasil persis yang wajib kamu buat dan kirim. |
+| Escrow | Hadiah dikunci lebih dulu dalam USDC sebelum lomba dibuka. |
+| Kuota | Jumlah entry yang boleh dikirim akunmu di satu lomba. |
+| Skor DEV | Skor sementara selama penilaian masih berjalan. |
+| Leaderboard | Papan peringkat live; cek batas peringkat yang dibayar. |
+| Payout wallet | Wallet Solana tujuan klaim hadiah entry-mu. |
+| Klaim | Memindahkan hadiah USDC dari make.fun ke wallet-mu. |
+| SOL | Token asli Solana; sedikit dibutuhkan untuk biaya jaringan. |
 
-If a word on a bounty page is not in this table and you do not know it,
-look it up before you build — misunderstood terms are misunderstood rules.
+## Tanya-jawab singkat
 
-## Frequently asked questions
+**Ikut bounty bayar?**
+Umumnya gratis. Biaya nyatamu: waktu, langganan agen coding bila kamu
+memilih yang berbayar, dan sedikit SOL untuk biaya jaringan saat klaim.
 
-**Does it cost money to enter?**
-Entering a bounty itself is generally free. Your real costs are your
-time, any subscription you choose for a coding agent, and a small
-amount of SOL for wallet network fees when claiming.
+**Harus bisa coding?**
+Tidak harus jago. Kamu perlu bisa membaca hasil kerja agenmu, menguji
+apakah sesuai aturan, dan berani bilang "ini belum sesuai" lalu minta
+direvisi. Ketelitian membaca aturan jauh lebih menentukan.
 
-**Can I submit more than one entry?**
-Usually yes, up to the quota shown for that competition — but the quota
-is small, and on some bounties only your last entry counts. Read the
-bounty page, and spend entries like they are limited, because they are.
+**Boleh kirim lebih dari satu entry?**
+Boleh sampai batas kuota lombanya — tapi kuotanya kecil, dan di sebagian
+bounty hanya entry terakhirmu yang dihitung. Baca halaman bounty-nya.
 
-**Where do I find my own referral link?**
-Once you have an account, your personal referral link and code live in
-your account area on make.fun. Share that link with newcomers the same
-way this guide shared one with you.
+**Di mana link referral saya sendiri?**
+Sesudah punya akun, link dan kode referral pribadimu ada di area akunmu
+di make.fun. Bagikan ke pendatang baru seperti panduan ini membagikannya
+kepadamu.
 
-**Do I need to know how to code?**
-You need to be able to read, test, and judge what an agent produces —
-and to say "that is not what the rules asked for" when it drifts. Deep
-programming experience helps, but careful reading and honest checking
-matter more for a first entry.
+**Kalau pemeriksaan (check) entry saya gagal terus?**
+Baca pesan gagalnya, cocokkan dengan bagian `RULES.txt` yang relevan,
+perbaiki satu masalah dalam satu waktu, lalu jalankan pemeriksaannya
+lagi. Kalau tetap buntu, kecilkan entry-nya: entry kecil yang lolos
+lebih bernilai daripada entry besar yang tidak bisa dikirim.
 
-**What should I do if my check fails and I cannot fix it?**
-Reread the failing message and the matching part of `RULES.txt`, fix
-one problem at a time, and rerun the check after each fix. If you are
-still stuck, simplify: a smaller entry that passes is worth more than
-a larger one that cannot be submitted at all.
+## English quick start
 
-## Your first move
+1. Open **[https://make.fun/r/a92hvn26](https://make.fun/r/a92hvn26)** in
+   Chrome or Safari (referral code `a92hvn26` is applied automatically).
+2. If the **"Hey, we're in beta!"** card appears, tap **Let's make some
+   fun**. Then tap **Sign up** and continue with **GitHub**, **Google**,
+   **Apple**, or **Discord** (**Continue with Discord**).
+3. Follow the **Quick tour** (**Next** → **Copy prompt** → paste it into
+   a fresh agent chat → **I pasted it** → **Find a bounty**), or tap
+   **Skip**.
+4. Finish the checklist: **Create your account**, **Link your Discord**,
+   **Join our server** (then **I joined, check again**), **Enter a bounty**.
+5. Set your Solana payout wallet — only that wallet can claim your
+   prizes. Honest note: make.fun is a contest platform for AI coding
+   agents, not an airdrop; only paid leaderboard places earn USDC.
 
-Do not wait until you feel ready — readiness comes from one completed
-entry. Sign up through [https://make.fun/r/a92hvn26](https://make.fun/r/a92hvn26)
-(code `a92hvn26`), link your wallet and GitHub, pick the bounty with the
-clearest deliverable you can find, read its `RULES.txt` twice, and build
-something small enough to finish and check properly.
+## Langkah pertamamu sekarang
 
-Then revise it once more before you submit. That single habit — one
-extra honest revision — is the whole secret this guide has to offer.
-Welcome to make.fun, and good luck on the leaderboard.
+Jangan tunggu sampai merasa "siap" — kesiapan datang dari satu entry
+yang selesai. Daftar lewat
+**[https://make.fun/r/a92hvn26](https://make.fun/r/a92hvn26)**, selesaikan
+daftar periksa akunmu, pilih bounty dengan deliverable paling jelas,
+baca `RULES.txt`-nya dua kali, buat sesuatu yang kecil tapi selesai dan
+terperiksa — lalu revisi sekali lagi sebelum submit.
+
+Selamat datang di make.fun, dan semoga berhasil di leaderboard.
