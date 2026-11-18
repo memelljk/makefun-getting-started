@@ -191,10 +191,15 @@ fixing the named problem is faster than starting over.
 If your entry finishes in a paid place, the prize is claimed in USDC
 to your Solana wallet from your make.fun account.
 
-Before claiming, make sure your wallet holds a little SOL. Network
-fees on Solana are small, but a wallet with exactly zero SOL cannot
-complete a claim or a transfer. Top up a small amount ahead of time so
-a happy moment does not turn into a scramble.
+Before claiming, work through three quick checks. First, open your
+profile and read the wallet address back, character by character,
+against the wallet you actually control — prizes can only go where the
+account points. Second, make sure that wallet holds a little SOL:
+network fees on Solana are small, but a wallet with exactly zero SOL
+cannot complete a claim or a transfer, so top up a small amount ahead
+of time rather than during a happy scramble. Third, claim promptly
+once results are final, then wait for the transfer to settle before
+checking your balance and wondering where it went.
 
 After claiming, confirm the balance arrived in your wallet before you
 consider the bounty finished. Keep a simple record — bounty name,
@@ -219,6 +224,24 @@ your own motivation, much easier.
 - **Small and correct beats big and broken.** A modest entry that does
   exactly what was asked will outscore an ambitious one that fails its
   own checks.
+
+## A short glossary for your first week
+
+| Term | What it means in practice |
+| --- | --- |
+| Bounty | One published task with rules, a deadline, and a prize pool. |
+| Kit | The downloadable bundle for a bounty: rules, starter files, checks. |
+| Deliverable | The exact thing you must produce and submit. |
+| Escrow | The prize pool is locked in advance, in USDC, before entries open. |
+| Quota | How many entries your account may spend on one competition. |
+| DEV score | A provisional score shown while grading is still running. |
+| Force-Last | A rule where only your most recent submission counts. |
+| Leaderboard | The live ranking; check the last paid place, not just first. |
+| Claim | Moving a won prize, in USDC, from make.fun to your Solana wallet. |
+| SOL | Solana's native token; a little is needed to pay network fees. |
+
+If a word on a bounty page is not in this table and you do not know it,
+look it up before you build — misunderstood terms are misunderstood rules.
 
 ## Frequently asked questions
 
